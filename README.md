@@ -1,24 +1,14 @@
-# DELHI METRO RAIL APP
+# METRO RAIL APP
 
-Please don't get confused, this is NOT an ANDROID Application!
+This Java program facilitates commuters by providing fare information and the shortest metro route between source and destination stations in the Delhi Metro. Additionally, it includes a metro map for enhanced navigation.
 
-This is a simple Java program that will take information (name) of the source station and the destination station, of Delhi Metro, from the user and display the fare and shortest metro route to reach the destination. It will also be having a metro map for commuter’s better navigation.
+The application leverages Graph and Heap data structures. Nodes in the graph represent metro stations, containing details like station name, corridor, and connected lines. Edges denote the distance between stations, with edge costs equivalent to the distance between connecting stations.
 
-The idea is implemented using Graph and Heap data structures.
-The graph has nodes and edges. Nodes represent a metro station that will be containing certain information regarding that station like its name, its metro corridor, and the lines which it connects. Edges (the connection between two nodes) represent the distance between the two stations and the cost of each edge will be equal to the distance between the two of its connecting stations(nodes). 
+Utilizing algorithms such as Dijkstra, breadth-first search, and depth-first search, the program computes the shortest path and fare between source and destination stations based on total distance traveled. The resulting metro route and fare are then displayed.
 
-By using different algorithms like Dijkstra, breadth-first search, depth-first search, etc, the shortest path between the source station and the destination station is determined, and accordingly, the fare is being calculated on the basis of the total distance between the two stations. Finally, the metro route between the two stations and the total fare is displayed.
+REQUIREMENTS
 
-Main.java cointains all the major code and Heap.java contains heap implementation.
-
-
-##  REQUIREMENTS
-
-> The project can run on any online or offline Integrated Development Environment (IDE) like Eclipse, Netbeans, ideone.com, etc.
-> You should have at least elementary knowledge of Java Programming language to work on the project.
-> Knowledge of data structures like Graph and Heap and Algorithms like Dijkstra, BFS, DFS, etc is appreciated, however, it is not essential.
-> And lastly, some understanding of the Collection framework makes it a cakewalk journey. (If you don't know about the Collection framework it is not a                   problem, you can proceed without it and while working if you feel the need to know you can refer to https://www.geeksforgeeks.org/collections-in-java-2/ ).
-
-
-## That was all... You are all set to work on the project!!!!  
-	
+The project is compatible with various Integrated Development Environments (IDEs) like Eclipse, Netbeans, and ideone.com.
+Basic knowledge of Java Programming is recommended.
+Familiarity with data structures (Graph, Heap) and algorithms (Dijkstra, BFS, DFS) is advantageous but not mandatory.
+Understanding of the Java Collection framework is beneficial, but not essential. (For reference: https://www.geeksforgeeks.org/collections-in-java-2/)
